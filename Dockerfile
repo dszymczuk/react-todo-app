@@ -10,6 +10,4 @@ COPY src src
 
 COPY public public
 
-RUN echo "test"
-
 CMD ["npm","start"]
